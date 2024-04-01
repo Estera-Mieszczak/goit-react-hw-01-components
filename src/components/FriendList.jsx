@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import clsx from "clsx";
 import css from './FriendList.module.css'
 
@@ -17,3 +18,6 @@ export const FriendList = ({ friends }) => {
         </ul>
     )
 }
+FriendList.propTypes = {
+  friends: PropTypes.array
+};
