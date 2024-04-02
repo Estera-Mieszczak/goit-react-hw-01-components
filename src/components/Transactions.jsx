@@ -1,4 +1,4 @@
-import css from './Transactions.module.css';
+import css from '../css/Transactions.module.css';
 import PropTypes from "prop-types";
 
 export const TransactionHistory = ({ items }) => {
